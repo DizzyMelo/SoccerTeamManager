@@ -2,13 +2,7 @@ package com.dicedev.soccerteammanager.network
 
 import com.dicedev.soccerteammanager.models.Team
 import com.dicedev.soccerteammanager.models.TeamList
-import retrofit2.Call
-import retrofit2.http.Body
-import retrofit2.http.DELETE
-import retrofit2.http.GET
-import retrofit2.http.POST
-import retrofit2.http.PUT
-import retrofit2.http.Path
+import retrofit2.http.*
 
 interface TeamManagerApi {
 
