@@ -1,12 +1,10 @@
 package com.dicedev.soccerteammanager.di
 
-import android.content.Context
 import com.dicedev.soccerteammanager.network.TeamManagerApi
 import com.dicedev.soccerteammanager.utils.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
