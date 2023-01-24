@@ -7,7 +7,7 @@ import retrofit2.http.*
 interface TeamManagerApi {
 
     @GET("teams/")
-    suspend fun getTeams(): TeamList
+    suspend fun getTeams(@Header("Authorization") auth: String): TeamList
 
     @GET("teams/{id}")
     suspend fun getTeam(@Path("id") id: String): Team

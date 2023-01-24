@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SoccerTeamManager</string>
+    <string name="com_auth0_domain">dev-ebmuazb8yrlefz80.us.auth0.com</string>
+    <string name="com_auth0_client_id">apwDzC4OBARmlpm6XmbzfKYcHuU8lKgC</string>
 </resources>

@@ -5,4 +5,7 @@ import dagger.hilt.android.HiltAndroidApp
 
 @HiltAndroidApp
 class ManagerApplication: Application() {
+    companion object {
+        var accessToken: String? = null
+    }
 }

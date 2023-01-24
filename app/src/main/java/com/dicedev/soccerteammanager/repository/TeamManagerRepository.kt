@@ -6,9 +6,9 @@ import com.dicedev.soccerteammanager.network.TeamManagerApi
 import javax.inject.Inject
 
 class TeamManagerRepository @Inject constructor(private val api: TeamManagerApi) {
-    suspend fun getTeams(): DataOrException<TeamList, Boolean, Exception> {
+    suspend fun getTeams(auth: String): DataOrException<TeamList, Boolean, Exception> {
         val response = try {
-            api.getTeams()
+            api.getTeams(auth)
         } catch (exception: Exception) {
             return DataOrException(exception = exception)
         }
